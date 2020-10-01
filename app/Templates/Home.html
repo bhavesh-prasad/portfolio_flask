@@ -1,0 +1,34 @@
+{% extends "./Base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block head %}
+
+ {% endblock %}
+{%block body%} 
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/Home.css') }}">
+<script src="{{ url_for('static',filename='script/Home.js') }}"> </script>
+
+ <div id="root">
+<div class="initialSplashWindow">
+  <h1 class="initialWindowText">
+     <span class="textspan1">Welcome...</span>
+     <br/>
+     <span class="textspan2">...Abroad</span>
+  </h1>
+</div>
+<div class="helperSplashWindow"></div>
+
+<div  class="startingAnimationElement">
+  <img src="{{ url_for('static',filename='Images/(5).jpg') }}" class="mainPagePhoto"/>
+  <div id ="createdText"><h1 class="text1">Created By </h1>
+  <br/><h2 class="text2">Bhavesh Prasad</h2>
+</div>
+</div>
+  
+<div class="mainContent">
+  Summary dsadsadsadasduihjasdbihiadhi
+  ]qwadjhuhdihwasudhasd
+  asjduashdaw
+</div>
+
+{%endblock%}

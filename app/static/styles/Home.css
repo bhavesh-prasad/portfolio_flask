@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 body {
     margin: 0%;
     -webkit-font-smoothing: antialiased;
@@ -10,7 +11,11 @@ body {
  padding-right: 10%;
  margin-top: 10%;
 }  */
-
+.mainPagePhoto{
+    max-width: 35%;
+    transform: translateY(100%);
+    opacity:0%;
+}
 .initialSplashWindow{
     position: absolute;
     top:0%;
@@ -49,4 +54,41 @@ body {
 .textspan2{
     transform: translateY(100%);
     display: inline-block;
+}
+.startingAnimationElement{
+    align-items: linear;
+}
+#createdText{
+    position: absolute;
+    left: 39%;
+    width: 30%;
+    padding-left: 4.5%;
+    top: 24%;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+.text1{
+    font-family: 'Bangers', cursive;   
+    color: rgb(0, 0, 0);
+    font-size: 4vw;
+    -webkit-text-stroke: 2px cyan;
+    transform: translateX(-120%);
+    opacity:0%;
+}
+.text2{
+    font-family: 'Bangers', cursive;    
+    color: rgb(0, 0, 0);
+    opacity:0%;
+    font-size: 4vw;
+    -webkit-text-stroke: 2px cyan;
+    transform: translateX(-120%);
+/*     padding-left: 1%; */
+
+}
+.mainContent{
+    padding-left: 30%;
+    padding-right:50%;
+    margin-top: 100%;
+    background-color: blanchedalmond;
+
 }

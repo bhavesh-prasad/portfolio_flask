@@ -1,8 +1,13 @@
 from flask import Flask,flash,render_template,request,redirect,url_for
 
-app= Flask(__name__, template_folder='Templates')
+app= Flask(__name__                                                                                     , template_folder='Templates')
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 app.config['TEMPLATES_AUTO_RELOAD'] = True
+app.config
+
+@app.route('/favicon.ico')
+def favicon():
+    return "Yes"
 
 @app.route('/')
 @app.route('/home')

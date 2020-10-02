@@ -1,5 +1,4 @@
 
-gsap.registerPlugin(ScrollTrigger);
 document.addEventListener("DOMContentLoaded", function(event) {
   
     // wait until window is loaded - all images, styles-sheets, fonts, links, and other media assets
@@ -12,7 +11,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
         t.to('.initialSplashWindow',{ y:"-100%" , duration:1.5} , "-=1");
         t.to('.mainPagePhoto',{duration:1,y:"0%",opacity:"100%"} , "-=1");
         t.to('.text1',{ x:"0",opacity:"100%" , duration:1.5} , "-=1");
-        t.to('.text2',{ x:"0" ,opacity:"100%", duration:1.5} , "-=1");
+        t.to('.text2',{x:"0" ,opacity:"100%", duration:1.5} , "-=1");
+
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.to('.mainContent',{scrollTrigger:{
+            trigger:".mainContent",scrub:1,start:"top 80%",toggleActions: "play none restart none"
+        }, x:"0%", opacity:"100%",duration:2});
+        
     };
   
 });

@@ -1,6 +1,8 @@
 body{
     background-color: black;
     margin-bottom: 10%;
+    overflow-x: hidden;
+
 }
 .mainContent{
     overflow: hidden;
@@ -30,6 +32,8 @@ span{
     padding: 5%;
 }
 .projects{
+    transform: translateX(-20%);
+    opacity: 0%;
     color: blanchedalmond;
     background-color: rgb(50, 50, 54);
     padding-left:10%;
@@ -41,4 +45,12 @@ span{
     padding-left:10%;
     padding-right:20%;
     margin-top: 20%;
+}
+#Animated{
+    transform: translateX(40%);
+    opacity: 0%;
+}
+#drone{
+    transform: translateX(-20%);
+    opacity: 0%;
 }

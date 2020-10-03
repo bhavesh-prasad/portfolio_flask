@@ -14,7 +14,7 @@
   <img src="{{ url_for('static',filename='Images/(5).jpg') }}" class="mainPagePhoto"/>
   <div id ="createdText"><h1 class="text1">Created By </h1>
   <br/><h2 class="text2">Bhavesh Prasad</h2>
-  <a class="button" href="#summary">Scroll Down</a>
+  <img src="{{ url_for('static',filename='Images/Down_Arrow.gif') }}" class="downArrow"/>
 </div>
 </div>
 <div id="root">
@@ -54,6 +54,11 @@
     <br/>
     • IT Industry with capabilities to generate innovative ideas and integrate them into desired results offering .
   </div>
+ </div>
+ <div class="button">
+   <a class="btn button1" href="./contactme">Contact me</a> 
+    <a class="btn button1" href="./projects">Projects</a>
+    <a class="btn button1" href="/Experience">Experience</a>
  </div>
 
 {%endblock%}

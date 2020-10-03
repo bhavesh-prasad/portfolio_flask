@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    margin-bottom: 10%;
+}
+.mainContent{
+    overflow: hidden;
+    padding-left: 10%;
+    padding-right:10%;
+    height:50vh;
+    color: blanchedalmond;
+    width: 100%;
+    padding-top: 4%;
+    text-align: center;
+/*     transform: translateX(-20%); */
+/*     opacity: 0%; */
+    align-content: center;
+}
+.heading{
+    transform:translateX(-20%);
+    opacity: 0%;
+    font-size: 10vw;
+    letter-spacing: 0.75em;
+    padding-left: 0%;
+    transform: translateX(-7%);
+}
+span{
+    padding-left:30%;
+}
+.media{
+    padding: 5%;
+}
+.projects{
+    color: blanchedalmond;
+    background-color: rgb(50, 50, 54);
+    padding-left:10%;
+    padding-right:20%;
+}
+.projects2{
+    color: blanchedalmond;
+    background-color: rgb(50, 50, 54);
+    padding-left:10%;
+    padding-right:20%;
+    margin-top: 20%;
+}

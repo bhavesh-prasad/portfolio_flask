@@ -22,9 +22,13 @@ def add_header(r):
     r.headers['Cache-Control'] = 'public, max-age=0'
     return r
 
+@app.route('/projects')
+def projedcts():
+    return render_template('projects.html')
 
-
-
+@app.route('/contactme')
+def contactme():
+    return render_template('./contactme.html')
 
 
 

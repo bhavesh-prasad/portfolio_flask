@@ -1,0 +1,27 @@
+{% extends "./Base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block head %}
+
+ {% endblock %}
+{%block body%} 
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/contactme.css') }}">
+<script src="{{ url_for('static',filename='script/contactme.js') }}"> </script>
+
+<div class="mainContent" id="summary">
+    <h1 class="heading">Contact<br/>Me</h1>
+    <br/>
+    <div class="summaryContent">
+           <b>Mobile Number:- </b>+91 7004511885
+           <br/>
+           <b>e-mail :-</b> prasadbhavesh7@gmail.com
+           <br/>
+           <b>github :-</b> <a href="https://github.com/mylittlepony7">https://www.github.com/mylittlepony7</a>
+           <br/>
+           <b>github :-</b> <a href="https://www.linkedin.com/in/prasadbhavesh7/">https://www.linkedin.com/in/prasadbhavesh7/</a>
+    </div>
+  </div>
+
+
+
+{% endblock %}

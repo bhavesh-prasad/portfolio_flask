@@ -31,15 +31,17 @@ body {
 
 }
 .initialWindowText{
+    font-family: 'Bangers', cursive;   
+    color: rgb(0, 0, 0);
+    font-size: 4vw;
+    -webkit-text-stroke: 2px blanchedalmond;
+
     position: absolute;
     top:50%;
     left:50%;
-    color: whitesmoke;
     justify-content: center;
     align-items: center;
     transform: translate(-50%,-50%);
-    font-family: 'Patrick Hand', cursive;
-    font-size: 3vw;
     overflow: hidden;
 }
 .helperSplashWindow{
@@ -161,4 +163,7 @@ body {
 .button1:hover{
     color:#000000;
     background-color:blanchedalmond;
+}
+.downArrow{
+    opacity:0;
 }

@@ -17,19 +17,22 @@ body{
 /*     opacity: 0%; */
     align-content: center;
 }
-.heading{
+
+.heading1{
     transform:translateX(-20%);
     opacity: 0%;
-    font-size: 10vw;
-    letter-spacing: 0.75em;
+    font-size: 8vw;
+    letter-spacing: 0.5em;
     padding-left: 0%;
     transform: translateX(-7%);
 }
-span{
-    padding-left:30%;
-}
-.media{
-    padding: 5%;
+.heading{
+    transform:translateX(-20%);
+    opacity: 0%;
+    font-size: 2vw;
+    letter-spacing: 0.5em;
+    padding-left: 0%;
+    transform: translateX(-7%);
 }
 .projects{
     transform: translateX(-20%);
@@ -38,25 +41,6 @@ span{
     background-color: rgb(50, 50, 54);
     padding-left:10%;
     padding-right:20%;
-}
-.projects2{
-    color: blanchedalmond;
-    background-color: rgb(50, 50, 54);
-    padding-left:10%;
-    padding-right:20%;
-    margin-top: 20%;
-}
-#Animated{
-    transform: translateX(40%);
-    opacity: 0%;
-}
-#drone{
-    transform: translateX(-20%);
-    opacity: 0%;
-}
-.button{
-    opacity:0%;
-    transform: translateX(-20%);
-    padding-left: 10%;
-    height: 35vh;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }

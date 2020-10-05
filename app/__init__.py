@@ -30,6 +30,13 @@ def projedcts():
 def contactme():
     return render_template('./contactme.html')
 
+@app.route('/mobilebrowser')
+def mobilebrowser():
+    return "<h1>Mobile Browsers are currently not supported</h1>"
+
+@app.route('/Experience')
+def experience():
+    return render_template('experience.html')
 
 
 if __name__ == "__main__":

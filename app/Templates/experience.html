@@ -1,0 +1,38 @@
+{% extends './base.html' %}
+{% block title %}My Experiences {% endblock %}
+
+{% block body %}
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/experience.css') }}">
+<script src="{{ url_for('static',filename='script/experience.js') }}"> </script>
+
+<div class="mainContent" id="summary">
+    <h1 class="heading1">Work</h1>
+</div>
+<div class="projects">
+    <div class = "work">
+        <h1 class="heading">
+            eTrans Solutions Private Limited
+        </h1>
+        <br/>
+        <h2 class="role">
+            Assistant software Development Engineering Intern (Jan'2019 - Mar'2019)
+        </h2>
+        <br/>
+        <h3>
+            Development:
+        </h3>
+        <br/>
+        <p>
+            Working with the research and development team to increase the efficiency of the company’s core
+application using Scrum development technique and handle all the task provided by my mentor was my overall
+task.
+During the time, I worked around data science techniques to predict and analyze all the points of procrastination in
+client’s business methods.
+        </p>
+    </div>
+</div>
+
+
+
+
+{% endblock %}

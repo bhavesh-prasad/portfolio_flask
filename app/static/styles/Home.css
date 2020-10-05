@@ -34,8 +34,10 @@ body {
     font-family: 'Bangers', cursive;   
     color: rgb(0, 0, 0);
     font-size: 4vw;
-    -webkit-text-stroke: 2px blanchedalmond;
+    padding-left: 1%;
+    padding-right: 1%;
 
+    -webkit-text-stroke: 2px blanchedalmond;
     position: absolute;
     top:50%;
     left:50%;
